@@ -7,6 +7,7 @@ const fileStr = fileBuffer.toString();
 // extract values
 const nums = fileStr.split('\n');
 
+// output result
 console.log(getResult());
 
 function getResult () {
